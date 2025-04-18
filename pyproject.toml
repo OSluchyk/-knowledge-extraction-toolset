@@ -1,0 +1,24 @@
+[project]
+name = "knowledge-extraction-toolset"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Oleksandr Sluchyk",email = "oleksandr_sluchyk@epam.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "streamlit (>=1.44.1,<2.0.0)",
+    "wikipedia (>=1.4.0,<2.0.0)",
+    "pyhocon (>=0.3.60,<0.4.0)",
+    "openai (>=1.0.0,<2.0.0)",
+    "google-generativeai (>=0.3.0,<0.4.0)"
+]
+
+[tool.poetry]
+packages = [{include = "knowledge_extract_toolset", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

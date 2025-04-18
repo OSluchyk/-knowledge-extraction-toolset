@@ -3,7 +3,7 @@ name = "knowledge-extraction-toolset"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "Oleksandr Sluchyk",email = "oleksandr_sluchyk@epam.com"}
+    {name = "User",email = "user@mail.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.13"
